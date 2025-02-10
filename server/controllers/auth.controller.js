@@ -14,4 +14,4 @@ export const signup = async (req, res)=>{
     } catch (error) {
         res.status(409).json('User already exists')
     }
-}
+} 
